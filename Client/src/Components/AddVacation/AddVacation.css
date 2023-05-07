@@ -1,0 +1,37 @@
+.AddVacation {
+    background-color: rgb(146, 245, 133);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.formArea {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.uploadBtn {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.imageAdd {
+    font-size: 60%;
+    margin-left: 10px;
+}
+
+.uploadBtn:hover {
+    background-color: rgb(91, 225, 91);
+}
+
+.uploadBtn:active {
+    background-color: rgb(161, 222, 161);
+}
+
+.overallError {
+    color: red;
+    font-size: 80%;
+}

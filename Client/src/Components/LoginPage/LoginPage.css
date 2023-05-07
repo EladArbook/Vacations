@@ -1,0 +1,33 @@
+.LoginPage {
+    background-color: rgb(146, 245, 133);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;    
+}
+
+.formArea {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.LoginPage table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.LoginPage td {
+    padding: 5px;
+}
+
+.regMark:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.showPassSpn {
+    font-size: 80%;
+}

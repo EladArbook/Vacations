@@ -1,0 +1,52 @@
+.SideBanner {
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 15%;
+    background-color: rgb(146, 245, 133);
+    background-image: linear-gradient(rgb(0, 100, 0), rgb(170, 241, 145));
+    color: white;
+    border-left: 3px dashed green;
+    font-size: 80%;
+    color: rgb(84, 205, 84);
+    
+
+}
+
+.SideBanner:hover {
+    overflow: auto;
+    background-color: rgb(146, 245, 133);
+    background-image: linear-gradient(rgb(0, 125, 0), rgb(180, 255, 152));
+    color: rgb(186, 186, 186);
+    border-left: 2px dotted green;
+}
+
+.DownArrow {
+    border: 30px solid transparent;
+    border-top: 30px solid rgb(28, 78, 27);
+    margin-right: auto;
+    margin-left: auto;
+    width: 0px;
+    height: 0px;
+    color: transparent;
+}
+
+.instructions {
+    color: white;
+    font-size: 80%;
+    background-color: rgba(15, 15, 15, 0.05);
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+.headerOfSide {
+    margin-top: 5%;
+    font-size: 100%;
+    font-weight: bold;
+}

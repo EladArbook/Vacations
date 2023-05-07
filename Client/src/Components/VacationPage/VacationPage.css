@@ -1,0 +1,69 @@
+.vacationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    gap: 40px;
+    padding: 20px;
+}
+
+.vacationItem {
+    position: relative;
+    background-color: white;
+    border: 5px solid greenyellow;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.vacationImg {
+    width: 130px;
+    height: 130px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numOfFollowers {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    background-color: rgb(195, 245, 195);
+    border: 2px solid rgb(59, 126, 59);
+    border-radius: 20px;
+    padding: 2px;
+
+}
+
+.followBtn {
+    background-color: transparent;
+    color: blue;
+    border: 2px solid rgb(0, 187, 255);
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+.followedVacation {
+    background-color: orange;
+}
+
+.followedVacation:hover {
+    background-color: rgb(255, 51, 0);
+    border: 2px solid rgb(255, 174, 0);
+}
+
+.unfollowedVacation {
+    background-color: rgb(255, 255, 208);
+}
+
+.unfollowedVacation:hover {
+    background-color: rgb(255, 255, 0);
+    border: 2px solid rgb(28, 209, 73);
+}

@@ -1,0 +1,12 @@
+.chartJS {
+    max-width: 80%;
+    background-color: rgba(43, 255, 0, 0.1);
+    margin-left: 10px;
+}
+
+.noFollowers{
+    background-color: rgba(43, 255, 0, 0.1);
+    display: inline-block;
+    padding: 10px;
+    color: gold;
+}

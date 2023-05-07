@@ -1,0 +1,36 @@
+.HeaderBar {
+    background-color: rgb(38, 161, 38);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding-bottom: 1px;
+}
+
+.NavBar {
+    display: inline-block;
+    width: 50%;
+}
+
+.HeaderBar div:nth-child(1) {
+    text-align: left;
+}
+
+.HeaderBar div:nth-child(2) {
+    text-align: right;
+}
+
+.logOutBtn {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.logOutBtn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*       <NavLink to="/" style={({ isActive }) => ({
+    background: isActive ? '#7600dc' : 'transparent',
+    color: 'white'
+})}>Log in</NavLink> */
